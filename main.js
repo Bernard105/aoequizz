@@ -80,7 +80,10 @@ var questions = [
     new Question("Nước nào dân 35 thực?", ["Parmyral", "Shang","Greek", "Choson"], "Shang"),
     new Question("Nước nào có pháo bẹp bắn nhanh nhất?", ["Hittle", "Macedonia", "Assyrian", "Sumerian"], "Assyrian"),
     new Question("Nước nào ăn hươu voi nhanh nhất?", ["Parmyral", "Shang", "Assyrian", "Persian"], "Persian"),
-    new Question("Nước nào dân 75 thực?" , ["Parmyral", "Choson", "Roma", "Cathage"], "Parmyral")
+    new Question("Nước nào dân 75 thực?" , ["Parmyral", "Choson", "Roma", "Cathage"], "Parmyral"),
+    new Question("Nước nào đạp đôi trâu nhất?" ["Roma", "Phoenician", "Egyptian", "Hittle"], "Egyptian"),
+    new Question("Nước nào pháo cẩu đá trâu nhất?" ["Macedonia", "Hittle", "Sumerian", "Greek"), "Hittle"),
+    new Question("Nước nào có BB đánh nhanh nhất?" ["Choson", "Hittle", "Babylonian", "Roma"), "Roma")
 ];
  
 var quiz = new Quiz(questions);
